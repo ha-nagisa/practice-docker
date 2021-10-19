@@ -26,5 +26,3 @@ services:
       - 'db-data:/var/lib/postgres/data'
     environment:
       - 'POSTGRES_HOST_AUTH_METHOD=trust'
-      - 'POSTGRES_USER=postgres'
-      - 'POSTGRES_PASSWORD=postgres'
